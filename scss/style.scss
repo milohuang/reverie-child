@@ -1,0 +1,19 @@
+/* This is the Sass/Scss file loaded by WordPress in frontend.
+ * Tweak it and have fun.
+ */
+
+// Reverie parent CSS will be loaded by default, as well as all the foundation stylesheets. No need to uncomment the below line.
+// @import url("../reverie-master/css/style.css");
+
+// Global Foundation Settings, should be on to allow you to retrieve value. Note this _settings.scss is the same copy from the framework/parent theme, 
+@import "settings";
+
+// Pagination is not necessary by default, but if you wish to edit it, simply uncomment to enable the Mixin.
+// @import "foundation/components/pagination";
+
+// Start your child theme customization below.
+
+// How about changing the background color?
+body {
+	background: #fdfdfd;
+}
