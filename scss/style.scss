@@ -3,7 +3,7 @@
  */
 
 // Load Reverie parent CSS, you will not want to uncomment it.
-@import url("../../reverie-master/css/style.css");
+@import '../../reverie-master/scss/style.scss';
 
 // Global Foundation Settings, should be on to allow you to retrieve value. Note this _settings.scss is the same copy from the framework/parent theme.
 @import "settings";
